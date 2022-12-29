@@ -278,7 +278,7 @@ try{
 }
 
 function print_log(type){
-
+/*
 	$.ajax({
 		url:"/tpapi_v18921/?a=playerror",
 		method:"post",
@@ -294,6 +294,7 @@ function print_log(type){
 			
 		}
 	}); 
+*/
 }
 
 function getBrowserInfo(){ 
