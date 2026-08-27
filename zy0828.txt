@@ -1,56 +1,17 @@
-name: 小猫咪资源
-api: http://zy.xiaomaomi.cc/api.php/provide/vod/
-
-name: 海洋资源
-api: https://www.seacms.org/zyapi.php
-
-name: 虾米资源
-api: https://zy.hls.one/api.php/provide/vod/
-
-name: 奈斯官采
-api: http://120.3.216.95:1688/api.php/provide/vod/
-
-name: 金蝉资源
-api: https://zy.jinchancaiji.com/api.php/provide/vod/
-
-name: 建安资源
-api: http://154.219.117.232:9981/jacloudapi.php/provide/vod/
-
-name: 小绵羊资源
-api: https://vs.okcdn100.top/api.php/provide/vod/
-
 name: U酷资源
 api: https://api.ukuapi88.com/api.php/provide/vod/
 
 name: 360资源
 api: https://360zy.com/api.php/provide/vod/
 
-name: 聚星资源
-api: https://jxzyw.top/api.php/provide/vod/
-
 name: 茅台资源
 api: https://caiji.maotaizy.cc/api.php/provide/vod/
-
-name: 金马资源
-api: https://api.jmzy.com/api.php/provide/vod/
-
-name: 豆瓣资源
-api: https://caiji.dbzy.tv/api.php/provide/vod/
-
-name: 黑木耳资源
-api: https://json.heimuer.xyz/api.php/provide/vod/
 
 name: 鸭鸭资源
 api: https://cj.yayazy.net/api.php/provide/vod/
 
 name: 牛牛资源
 api: https://api.niuniuzy.me/api.php/provide/vod/
-
-name: OK资源
-api: https://api.okzy.org/api.php/provide/vod/
-
-name: 淘片资源
-api: https://taopianapi.com/cjapi/mc10/vod/json.html
 
 name: 华为吧
 api: https://huawei8.live/api.php/provide/vod/
