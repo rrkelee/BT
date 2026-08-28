@@ -1,0 +1,224 @@
+# 实测可用资源库清单（仅保留能正常采集到 m3u8 播放源的库）
+# 源清单：https://cdn.jsdelivr.net/gh/rrkelee/BT/zy0828.txt
+# 检测时间：2026-08-29 01:58:29
+# 检测方式：请求 {api}?ac=videolist&pg=1，解析列表并统计 vod_play_url 中真实 .m3u8/.m3u 的影片条数
+# 判定标准：首页样本中含 m3u8 的影片 >= 3 条即通过；1~2 条会翻第 2、3 页复核
+# 结果：源清单 131 个 → 通过 70 个 → 按接口去重后保留 69 个
+#
+# 分节说明：成人向资源库已单独归到文件末尾第二节，如不需要直接删除该节即可。
+# 每条格式与源清单一致（name: / api: 成对），可直接复制粘贴使用。
+
+########################################
+# 一、常规影视资源库（60 个）
+########################################
+
+name: U酷资源
+api: https://api.ukuapi88.com/api.php/provide/vod/
+
+name: 360资源
+api: https://360zy.com/api.php/provide/vod/
+
+name: 茅台资源
+api: https://caiji.maotaizy.cc/api.php/provide/vod/
+
+name: 鸭鸭资源
+api: https://cj.yayazy.net/api.php/provide/vod/
+
+name: 牛牛资源
+api: https://api.niuniuzy.me/api.php/provide/vod/
+
+name: 索尼资源
+api: https://suoniapi.com/api.php/provide/vod/
+
+name: 豪华资源
+api: https://hhzyapi.com/api.php/provide/vod/
+
+name: 速播资源
+api: https://subocaiji.com/api.php/provide/vod/
+
+name: 虎牙资源
+api: https://www.huyaapi.com/api.php/provide/vod/
+
+name: 最大资源
+api: https://api.zuidapi.com/api.php/provide/vod/
+
+name: 暴风资源
+api: https://bfzyapi.com/api.php/provide/vod/
+
+name: CK资源
+api: https://ckzy.me/api.php/provide/vod/
+
+name: 极速资源
+api: https://jszyapi.com/api.php/provide/vod/
+
+name: 金鹰资源
+api: https://jyzyapi.com/provide/vod/
+
+name: 非凡资源
+api: http://cj.ffzyapi.com/api.php/provide/vod/
+
+name: 量子资源
+api: http://cj.lziapi.com/api.php/provide/vod/
+
+name: 红牛资源
+api: https://www.hongniuzy2.com/api.php/provide/vod/
+
+name: 樱花资源
+api: https://m3u8.apiyhzy.com/api.php/provide/vod/
+
+name: 闪电资源
+api: https://sdzyapi.com/api.php/provide/vod/
+
+name: 光速资源
+api: https://api.guangsuapi.com/api.php/provide/vod/
+
+name: 新浪资源
+api: http://api.xinlangapi.com/xinlangapi.php/provide/vod/
+
+name: 百度资源
+api: https://api.apibdzy.com/api.php/provide/vod/
+
+name: 无尽资源
+api: https://api.wujinapi.net/api.php/provide/vod/
+
+name: 飘零影院
+api: https://p2100.net/api.php/provide/vod/
+
+name: 如意资源
+api: https://cj.rycjapi.com/api.php/provide/vod/
+
+name: 天涯资源
+api: https://ty.tyyszy5.com/api.php/provide/vod/
+
+name: 电影天堂
+api: https://caiji.dyttzyapi.com/api.php/provide/vod/
+
+name: 爱奇艺资源
+api: https://iqiyizyapi.com/api.php/provide/vod/
+
+name: 155资源
+api: https://155api.com/api.php/provide/vod/
+
+name: 小鸡资源
+api: https://api.xiaojizy.live/provide/vod/
+
+name: 桃花资源
+api: https://thzy1.me/api.php/provide/vod/
+
+name: 滴滴资源
+api: https://api.ddapi.cc/api.php/provide/vod/
+
+name: 森林资源
+api: https://slapibf.com/api.php/provide/vod/
+
+name: 玉兔资源
+api: https://apiyutu.com/api.php/provide/vod/
+
+name: 乐播资源
+api: https://lbapi9.com/api.php/provide/vod/
+
+name: 虎牙资源采集网采集接口
+api: https://www.huyaapi.com/api.php/provide/vod/at/json/
+
+name: 天涯影视资源网采集接口
+api: https://tyyszyapi.com/api.php/provide/vod/at/json/
+
+name: 爱奇艺资源站采集接口
+api: https://www.iqiyizyapi.com/api.php/provide/vod/at/json/
+
+name: 电影天堂采集综合资源接口
+api: http://caiji.dyttzyapi.com/api.php/provide/vod/at/json/
+
+name: 茅台资源站采集接口
+api: https://caiji.maotaizy.cc/api.php/provide/vod/at/json/
+
+name: 豆瓣资源采集站采集接口大全
+api: https://caiji.dbzy5.com/api.php/provide/vod/at/json/
+
+name: 如意资源网采集接口
+api: https://cj.rycjapi.com/api.php/provide/vod/at/json/
+
+name: 无尽资源网采集接口
+api: https://api.wujinapi.me/api.php/provide/vod/at/json/
+
+name: 樱花资源网采集接口
+api: https://m3u8.apiyhzy.com/api.php/provide/vod/at/json/
+
+name: 155资源站采集接口
+api: https://155api.com/api.php/provide/vod/at/json/
+
+name: 非凡资源网采集接口
+api: http://api.ffzyapi.com/api.php/provide/vod/at/json/
+
+name: 暴风资源网采集接口
+api: https://bfzyapi.com/api.php/provide/vod/at/json/
+
+name: 极速资源网采集接口
+api: https://jszyapi.com/api.php/provide/vod/at/json/
+
+name: 魔都动漫资源采集网采集接口
+api: https://www.mdzyapi.com/api.php/provide/vod/at/json/
+
+name: 豪华资源网采集接口地址
+api: https://hhzyapi.com/api.php/provide/vod/at/json/
+
+name: 丫丫资源网采集接口
+api: https://cj.yayazy.net/api.php/provide/vod/at/json/
+
+name: 桃花资源采集网采集接口
+api: https://thzy1.me/api.php/provide/vod/at/json/
+
+name: 玉兔资源采集接口
+api: https://apiyutu.com/api.php/provide/vod/at/json/
+
+name: 360资源站采集接口
+api: https://360zyzz.com/api.php/provide/vod/at/json/
+
+name: 爱坤联盟资源网采集接口
+api: https://www.jkunzyapi.com/api.php/provide/vod/at/json/
+
+name: 奥斯卡资源API采集接口大全
+api: https://aosikazy.com/api.php/provide/vod/at/json/
+
+name: 森林资源网采集接口
+api: https://slapibf.com/api.php/provide/vod/at/json/
+
+name: CK资源采集接口
+api: https://ckzy.me/api.php/provide/vod/at/json/
+
+name: 光速资源站采集接口地址
+api: https://api.guangsuapi.com/api.php/provide/vod/at/json/
+
+name: 百花资源
+api: https://bhziyuan.com/api.php/provide/vod/
+
+########################################
+# 二、成人向资源库（9 个，按需选用）
+########################################
+
+name: 大奶子资源
+api: https://apidanaizi.com/api.php/provide/vod/
+
+name: 番号资源
+api: http://fhapi9.com/api.php/provide/vod/
+
+name: 搜AV资源
+api: https://api.souavzy.vip/api.php/provide/vod/
+
+name: 杏吧资源
+api: https://xingba111.com/api.php/provide/vod/
+
+name: 大奶子资源网采集接口
+api: https://apidanaizi.com/api.php/provide/vod/at/json/
+
+name: 杏吧资源站采集接口
+api: https://xingba222.com/api.php/provide/vod/at/json/
+
+name: 黄色仓库资源采集网采集接口
+api: https://hsckzy888.com/api.php/provide/vod/at/json/
+
+name: 搜av资源站采集接口
+api: https://api.souavzy.vip/api.php/provide/vod/at/json/
+
+name: 老色逼资源站采集接口
+api: https://apilsbzy1.com/api.php/provide/vod/at/json/
